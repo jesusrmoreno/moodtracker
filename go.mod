@@ -1,4 +1,4 @@
-module moodcli
+module github.com/jesusrmoreno/moodtracker
 
 go 1.21.0
 
