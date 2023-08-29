@@ -1,12 +1,15 @@
-module moody
+module moodcli
 
 go 1.21.0
 
-require github.com/spf13/cobra v1.7.0
+require (
+	github.com/charmbracelet/lipgloss v0.8.0
+	github.com/spf13/cobra v1.7.0
+	gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55
+)
 
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
-	github.com/charmbracelet/lipgloss v0.8.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
@@ -17,7 +20,6 @@ require (
 	github.com/muesli/termenv v0.15.2 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
-	gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55 // indirect
 )
 
 require (
