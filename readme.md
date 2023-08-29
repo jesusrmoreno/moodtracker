@@ -1,6 +1,6 @@
 # MoodCLI - Your Personal Mood Tracker in Terminal
 
-MoodCLI is a command-line tool to help you track your moods, because mental health matters, even for developers! With a few keystrokes, log your mood, add additional notes, and generate reports to understand yourself better. All of this, right in your terminal. It's built using Go, and incorporates SQLite for local storage.
+MoodCLI is a command-line tool to help you track your moods, because mental health matters! With a few keystrokes, log your mood, add additional notes, and generate reports to understand yourself better. All of this, right in your terminal. It's built using Go, and incorporates SQLite for local storage.
 
 ---
 
